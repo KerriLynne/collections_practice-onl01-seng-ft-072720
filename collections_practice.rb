@@ -23,5 +23,6 @@ def reverse_array(num)
   reversed_num = num.reverse
 end
 
-def kesha_maker(strings)
+def kesha_maker(array)
+  array.each {|element| element[2] = "$"}
 end
