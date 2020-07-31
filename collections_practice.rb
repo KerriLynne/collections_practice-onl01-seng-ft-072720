@@ -22,5 +22,4 @@ end
 def reverse_array(num)
   reversed_num = num.reverse
 
-end  
-
+end
