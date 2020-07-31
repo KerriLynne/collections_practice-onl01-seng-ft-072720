@@ -16,5 +16,7 @@ end
 
 def swap_elements(array)
   array.swap! do |[1], [2]|
-    
+    self[1], self[2] = self[2], self[1]
+  self
+  end  
 end
