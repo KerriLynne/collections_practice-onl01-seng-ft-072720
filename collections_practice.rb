@@ -34,3 +34,10 @@ end
 def sum_array(array)
   array.inject{|add,num| add+num}
 end
+
+def add_s(array)
+    notouch = array[1]
+    copy= array.each_with_index.collect{|element,i| element+"s"}
+    copy[1] = notouch
+    copy
+end
