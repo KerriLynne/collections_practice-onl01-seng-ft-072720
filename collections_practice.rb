@@ -15,7 +15,7 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(array)
-  array.swap! do |a, b|
+  array.sort do |a, b|
     self[1], self[2] = self[2], self[1]
   end
 end
