@@ -23,4 +23,5 @@ def reverse_array(num)
   reversed_num = num.reverse
 end
 
-kesha_maker(strings)
+def kesha_maker(strings)
+end
